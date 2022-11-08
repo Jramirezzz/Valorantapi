@@ -13,7 +13,7 @@ function login() {
         storage.setItem("user", userJsonStr)
         
         // Navego a la main
-        window.location.href = './LP2'
+        window.location.href = './LP 2.html'
     }
     // TODO: Handle error
 
