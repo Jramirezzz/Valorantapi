@@ -1,0 +1,147 @@
+body{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    background-color: azure;
+    background-image: url(https://images8.alphacoders.com/114/1149389.jpg);
+    background-size: cover;
+
+}
+@font-face {
+    font-family:Erda;
+    src: url(Valorant.ttf.ttf);
+
+}
+
+#all{
+    margin-top: 100px;
+background-color: rgb(209, 209, 209);
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 25%;
+margin-left: 750px;
+height: 800px;
+opacity: 90%;
+border-radius: 20px;
+box-shadow: 15px 15px 20px rgb(202, 91, 184);
+animation: mymove 2s infinite;
+}
+@keyframes mymove {
+    50% {box-shadow: 10px 20px 30px rgb(223, 70, 202);}
+}
+#Editprofile{
+font-family: erda;
+font-size: 50px;
+}
+#img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    
+}
+#Name{
+font-family: erda;
+background-color: aliceblue;
+border-radius: 12px;
+padding: 10px;
+box-shadow: 5px 5px 5px rgb(94, 94, 94);
+}
+#Name1{
+    font-family: erda;
+    margin-left: -220px;
+    margin-bottom: -10px;
+}
+#Correo{
+    font-family: erda;
+    background-color: aliceblue;
+border-radius: 12px;
+padding: 10px;
+box-shadow: 5px 5px 5px rgb(94, 94, 94);
+
+}
+#Correo1{
+    font-family: erda;
+    margin-left: -220px;
+    margin-bottom: -10px;
+}
+#Username{
+    font-family: erda;
+    background-color: aliceblue;
+border-radius: 12px;
+padding: 10px;
+width: 270px;
+box-shadow: 5px 5px 5px rgb(94, 94, 94);
+}
+#Username1{
+    font-family: erda;
+    margin-left: -200px;
+    margin-bottom: -10px;
+}
+#Contraseña{
+    font-family: erda;
+    background-color: aliceblue;
+border-radius: 12px;
+padding: 10px;
+width: 270px;
+box-shadow: 5px 5px 5px rgb(94, 94, 94);
+border-color: black;
+
+}
+#contraseña1{
+    font-family: erda;
+    margin-left: -200px;
+    margin-bottom: -10px;
+
+}
+#logout{
+    font-family: erda;
+    background-color: rgb(0, 136, 255);
+border-radius: 12px;
+padding: 10px;
+margin-top: 20px;
+margin-left: 150px;
+margin-top: 50px;
+opacity: 80%;
+width: 30%;
+}
+#logout {
+    border-radius: 4px;
+    background-color: #f16eeb;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 25px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    margin-top: 40px;
+}
+  
+  #logout span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+  
+  #logout span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+  
+  #logout:hover span {
+    padding-right: 25px;
+}
+  
+  #logout:hover span:after {
+    opacity: 1;
+    right: 0;
+}
