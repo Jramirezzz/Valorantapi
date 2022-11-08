@@ -1,0 +1,184 @@
+.f1{
+    background-size: cover;
+}
+
+.f3{
+    margin-top: 50px;
+    background-size: cover;
+}
+#playnow{
+
+    position: absolute;
+    display: flex;
+    margin-left: 1090px;
+    margin-top: 450px;
+    border-radius: 20px;
+    background-color: #FF4655;
+    width: 350px;
+    height: 86px;
+    font-family: erda;
+    border: 1px dashed #FF0000;
+    font-size: 28px;
+    padding-left: 90px;
+    padding-top: 30px;
+    color: white;
+    
+   
+
+
+}
+#final{
+   
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: row;
+    background-color: #000000;
+    color: white;
+    margin-top: -10px;
+    font-family: erda;
+    padding-top: 100px;
+    height: 200px;
+   word-spacing: 70px;
+   width: 100%;
+    
+
+}
+
+
+@font-face {
+    font-family:erda;
+    src: url(Valorant.ttf.ttf);
+
+}
+:root {
+	--rojo: #E50914;
+	--fondo: #ffffff;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: var(--fondo);
+    background-color: #FF4655;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.contenedor {
+	width: 90%;
+	margin: auto;
+}
+.cuadro{
+    
+    font-family: erda;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 33px;   
+    word-spacing: 10px;
+    width: 800px;
+    height: 80px;
+    border: 1px black;
+    background-color:#ffffff;
+    mix-blend-mode: normal; 
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: erda;
+}
+
+header {
+	padding: 30px 0;
+}
+
+header .contenedor {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header .logotipo {
+	font-family: 'Bebas Neue', cursive;
+	font-weight: normal;
+	color: var(--rojo);
+	font-size: 40px;
+}
+
+header nav a {
+	color: #FF4655;
+	text-decoration: none;
+	margin-right: 20px;
+}
+
+header nav a:hover,
+header nav a.activo {
+	color: rgb(245, 114, 114);
+}
+.M
+{
+    position: absolute;
+width: 206px;
+height: 70px;
+left: 653px;
+top: 175px;
+
+font-family: erda;
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 70px;
+text-align: center;
+
+color: #000000;
+
+}
+.row_poster {
+    object-fit: contain;
+    margin-right: 100px;
+    transition: transform 450ms;
+    background-color: #FF4655;
+}
+
+.row_posters{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 20px;
+}
+
+.row_poster:hover{
+    transform: scale(1.08);
+}
+
+.row_posters::-webkit-scrollbar{
+    display: none;
+}
+
+.row_posterLarge{
+    max-height: 250px;
+}
+
+.row_posterLarge:hover{
+    transform: scale(1.09);
+}
+
+.row{
+    color: white;
+    margin-left: 20px;
+}
+#news{
+    font-family: erda;
+    font-size: 100px;
+    color: #ffffff;
+    margin-left: 300px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
