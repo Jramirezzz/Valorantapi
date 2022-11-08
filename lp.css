@@ -3,7 +3,6 @@
 }
 
 .f3{
-    margin-top: 50px;
     background-size: cover;
 }
 #playnow{
@@ -22,12 +21,9 @@
     padding-left: 90px;
     padding-top: 30px;
     color: white;
-    
-   
-
 }
-#final{
-   
+
+#final{ 
     display: flex;
     text-align: center;
     justify-content: center;
@@ -38,10 +34,8 @@
     font-family: erda;
     padding-top: 100px;
     height: 200px;
-   word-spacing: 70px;
-   width: 100%;
-    
-
+    word-spacing: 70px;
+    width: 100%;
 }
 
 
@@ -51,33 +45,33 @@
 
 }
 :root {
-	--rojo: #E50914;
-	--fondo: #ffffff;
+    --rojo: #E50914;
+    --fondo: #ffffff;
 }
 
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-	background: var(--fondo);
+    background: var(--fondo);
     background-color: #FF4655;
-	font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .contenedor {
-	width: 90%;
-	margin: auto;
+    width: 90%;
+    margin: auto;
 }
 .cuadro{
-    
+
     font-family: erda;
     font-style: normal;
     font-weight: 400;
     font-size: 30px;
-    line-height: 33px;   
+    line-height: 33px;
     word-spacing: 10px;
     width: 800px;
     height: 80px;
@@ -95,31 +89,31 @@ body {
 }
 
 header {
-	padding: 30px 0;
+    padding: 30px 0;
 }
 
 header .contenedor {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 header .logotipo {
-	font-family: 'Bebas Neue', cursive;
-	font-weight: normal;
-	color: var(--rojo);
-	font-size: 40px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: normal;
+    color: var(--rojo);
+    font-size: 40px;
 }
 
 header nav a {
-	color: #FF4655;
-	text-decoration: none;
-	margin-right: 20px;
+    color: #FF4655;
+    text-decoration: none;
+    margin-right: 20px;
 }
 
 header nav a:hover,
 header nav a.activo {
-	color: rgb(245, 114, 114);
+    color: rgb(245, 114, 114);
 }
 .M
 {
@@ -154,15 +148,26 @@ color: #000000;
 }
 
 .row_poster:hover{
-    transform: scale(1.08);
+    transform: scale(1.00);
 }
 
 .row_posters::-webkit-scrollbar{
-    display: none;
+    width: 10px;
+    top: -20px;
+    background-color: #FF4655;
 }
 
+.row_posters::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+
+.row_posters::-webkit-scrollbar-thumb {
+    background-color: #1E1E1E;
+  }
+
 .row_posterLarge{
-    max-height: 250px;
+    max-height: 400px;
+    outline: 4px solid #ffffff;
 }
 
 .row_posterLarge:hover{
