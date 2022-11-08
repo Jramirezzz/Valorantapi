@@ -64,6 +64,8 @@ body {
 .contenedor {
     width: 90%;
     margin: auto;
+    display: flex;
+    align-content: center;
 }
 .cuadro{
 
