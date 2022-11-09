@@ -1640,8 +1640,7 @@ const data = [{
 ]
 data.forEach(information => {
     document.getElementById("contp").innerHTML += `
-      <img id="img11"
-        src="${information.splash}">
+    <img class="im1" src="${information.splash}"" >
       
     `
   })
