@@ -1,0 +1,125 @@
+@font-face {
+    font-family:Erda;
+    src: url(Valorant.ttf.ttf);
+
+}
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: url(/Fondi.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -100px;
+
+	font-family: 'Open Sans', sans-serif;
+}
+
+.contenedor {
+	width: 90%;
+	margin: auto;
+}
+.cuadro{
+    
+    font-family: 'VALORANT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 33px;   
+    word-spacing: 10px;
+    width: 800px;
+    height: 80px;
+    border: 1px black;
+    background-color:#FF4655;
+    mix-blend-mode: normal; 
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+    font-family: Valorant;
+}
+
+header {
+	padding: 30px 0;
+}
+
+header .contenedor {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header .logotipo {
+	font-family: 'Bebas Neue', cursive;
+	font-weight: normal;
+	color: var(--rojo);
+	font-size: 40px;
+}
+
+header nav a {
+	color: #AAA;
+	text-decoration: none;
+	margin-right: 20px;
+}
+
+header nav a:hover,
+header nav a.activo {
+	color: #FFF;
+}
+.Ra
+{
+    width: 150px;
+    height: 448px;
+
+    border: 10px solid #93000C;
+    border-radius: 500px;
+
+}
+.parrafo{
+    z-index: 1;
+    width: 1240px;
+    height: 500px;
+    padding: 20px 20px;
+    font-size: 25px;
+    margin-left: 300px;
+    margin-top: 250px;
+    line-height: 2;
+    text-align: justify;
+    font-family: Valorant;
+    color: #FFF;
+    background-color: #FF4655;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.25);
+
+}
+.parrafo img{
+    border-radius: 5px;
+    float: left;
+    margin-right: 50px;
+}
+.M
+{
+    position: absolute;
+    width: 206px;
+    height: 70px;
+    left: 753px;
+    top: 20 5px;
+
+    font-family: 'VALORANT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 70px;
+    text-align: center;
+    margin-top: 50px;
+
+    color: #000000;
+
+}
