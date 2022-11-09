@@ -1,9 +1,9 @@
 function fetchAsync() {
-    const url = 'https://api.escuelajs.co/api/v1/products?offset=0&limit=10'
+    const url = 'https://valorant-api.com/v1/maps'
     fetch(url)
         .then(response => {
             response.json().then(data => {
-                data.forEach(information => {
+                Object.forEach(information => {
                     document.getElementById("contenedor").innerHTML += `
                     <img class="im1" src="${information.splash}"" > 
                     `
