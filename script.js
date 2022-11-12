@@ -110,7 +110,6 @@ class ProductComponent {
             <a href="map.html"><img alt="product" width="120" height="120" 
             src="${this.product.getFirstImage()}" /></a>
             <div>
-      
             </div>
         </div>
         `
