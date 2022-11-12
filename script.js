@@ -106,7 +106,7 @@ class ProductComponent {
 
     toHtml() {
         return `
-        <div class="product-card" onclick="productSelected(${this.pos})">
+        <div class="product-card" onclick="productSelected(${this.pos}) onclick="OpenModal()">
             <a href="map.html"><img alt="product" width="120" height="120" 
             src="${this.product.getFirstImage()}" /></a>
             <div>
@@ -132,3 +132,12 @@ function showAllProducts() {
 }
 
 showAllProducts()
+
+function OpenModal() {
+    let element = document.getElementById('overlay')
+    element.style.display = 'block'
+  }
+  function CloseModal() {
+    let element = document.getElementById('overlay')
+    element.style.display = 'none'
+  }
