@@ -140,37 +140,37 @@ text-align: center;
 color: #000000;
 
 }
-.row_poster {
+#row_poster {
     object-fit: contain;
     margin-right: 100px;
     transition: transform 450ms;
     background-color: #FF4655;
 }
 
-.row_posters{
+#row_posters{
     display: flex;
     overflow-y: hidden;
     overflow-x: scroll;
     padding: 20px;
 }
 
-.row_poster:hover{
+#row_poster:hover{
     transform: scale(1.08);
 }
 
-.row_posters::-webkit-scrollbar{
+#row_posters::-webkit-scrollbar{
     display: none;
 }
 
-.row_posterLarge{
+#row_posterLarge{
     max-height: 250px;
 }
 
-.row_posterLarge:hover{
+#row_posterLarge:hover{
     transform: scale(1.09);
 }
 
-.row{
+#row{
     color: white;
     margin-left: 20px;
 }
