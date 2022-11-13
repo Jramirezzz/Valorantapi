@@ -84,6 +84,10 @@ header nav a.activo {
 
 }
 .parrafo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
     z-index: 1;
     width: 1240px;
     height: 500px;
