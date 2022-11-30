@@ -11,13 +11,6 @@ let RecommendMovie = [
   { imgUrl: "https://www.esportmaniacos.com/wp-content/uploads/2022/02/valorant-780x470.jpg"},
 ]
 
-// row_posters.forEach(poster => {
-//     document.getElementById("row_posters").innerHTML = `
-//     <img id="1" src="${poster}" alt="" class="row_poster row_posterLarge">
-//     `
-// })
-
-
 RecommendMovie.forEach(movie => {
   document.getElementById("row_posters").innerHTML += `
     <img id="img11"
