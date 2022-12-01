@@ -54,6 +54,7 @@ box-shadow: 5px 5px 5px rgb(94, 94, 94);
     margin-bottom: -10px;
 }
 #correo{
+    width: 55%;
     margin-top: 10px;
     font-family: erda;
     background-color: aliceblue;
