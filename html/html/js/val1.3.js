@@ -3,7 +3,7 @@ function fetchAsync() {
     fetch(url)
         .then(response => {
             response.json().then(data => {
-                Object.forEach(information => {
+                data.data.forEach(information => {
                     document.getElementById("contenedor").innerHTML += `
                     <img class="im1" src="${information.splash}"" > 
                     `
