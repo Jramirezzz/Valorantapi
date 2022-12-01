@@ -20,3 +20,7 @@ function signup() {
     // TODO: Refactor for the use of a list of users
     // Validar que el usario no este previamente registrado
 }
+const userJson = localStorage.getItem("user")
+// Parse the json string into a map (object)
+const userParsed = JSON.parse(userJson);
+console.log(userParsed)
