@@ -12,7 +12,7 @@ async function getmapInfo(url){
 
 
 map.innerHTML += `
-<div>
+    <div>
         <h1 class="M">${data.data.displayName}</h1>
     </div>
     <div class="parrafo ">
@@ -29,5 +29,6 @@ async function getallmapInfo(){
     let url = urlbase + valid;
     await getmapInfo(url)
 }
+
 
 getallmapInfo()

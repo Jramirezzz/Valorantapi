@@ -6,6 +6,23 @@
     margin-top: 50px;
     background-size: cover;
 }
+#btn{
+    position: absolute;
+    display: flex;
+    margin-left: 1090px;
+    margin-top: 450px;
+    border-radius: 20px;
+    background-color: #FF4655;
+    width: 350px;
+    height: 86px;
+    font-family: erda;
+    border: 1px dashed #FF0000;
+    font-size: 28px;
+    padding-left: 90px;
+    padding-top: 30px;
+    color: white;
+    cursor: pointer;
+}
 #playnow{
 
     position: absolute;
@@ -22,11 +39,11 @@
     padding-left: 90px;
     padding-top: 30px;
     color: white;
-    
-   
-
-
+    cursor: pointer;
 }
+/* #log{
+    display: none;
+} */
 #final{
    
     display: flex;
@@ -68,7 +85,7 @@ body {
 	font-family: 'Open Sans', sans-serif;
 }
 
-.contenedor {
+#contenedor {
 	width: 90%;
 	margin: auto;
 }
@@ -80,7 +97,7 @@ body {
     font-size: 30px;
     line-height: 33px;   
     word-spacing: 10px;
-    width: 800px;
+    width: 50%;
     height: 80px;
     border: 1px black;
     background-color:#ffffff;
@@ -99,7 +116,7 @@ header {
 	padding: 30px 0;
 }
 
-header .contenedor {
+header #contenedor {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -192,3 +209,12 @@ color: #000000;
     margin-top: 70px;
     margin-bottom: 70px;
 }
+#img11{
+    height: 50%;
+    width: 50%;
+    border: 10px solid #93000C;
+    border-radius: 50px;
+    margin-left: 1%;
+
+}
+	 
