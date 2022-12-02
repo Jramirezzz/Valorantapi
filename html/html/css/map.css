@@ -3,6 +3,11 @@
     src: url(Valorant.ttf.ttf);
 
 }
+@font-face {
+    font-family:ta;
+    src: url(Mika\ Melvas\ -\ Kuunari\ Bold.ttf);
+
+}
 
 
 * {
@@ -13,7 +18,7 @@
 
 body {
     
-	background: url(Fondi2.png);
+	background: url(../IMG/Fondi2.png);
     background-color: #393939;
     background-repeat: no-repeat;
     background-size: cover;
@@ -25,6 +30,12 @@ body {
 .contenedor {
 	width: 90%; 
 	margin: auto;
+}
+.JR{
+    font-family: ta;
+    font-size: 28px;
+
+
 }
 .cuadro{
     
@@ -81,8 +92,17 @@ header nav a.activo {
 {
     width: 50%;
     height: 100%;
+    
+}
+.Ram
+{
+    width: 70%;
+    height: 100%;
+    transform: rotate(-90deg);
 
     border-radius: 500px;
+    margin-left: 10%;
+    margin-top: 50px;
 
 }
 .parrafo{
@@ -92,6 +112,7 @@ header nav a.activo {
     padding: 2% 2%;
     font-size: 100%;
     margin-left: 20%;
+    margin-bottom: 10%;
     margin-top: 1%;
     line-height: 2;
     text-align: justify;
