@@ -12,28 +12,6 @@ function signup() {
         password: password,
         isLogged: false
     }
-    if (name == ""){
-        alert("You have to write a name");
-        return true;
-    }
-    if (email == ""){
-        alert("You have to write an Email");
-        return true;
-    }
-    if(email.includes("@")& email.includes(".")){
-
-    }else{
-        alert("You have to write a correct Email");
-        return true;
-    }
-    if (password == ""){
-        alert("You have to write a Password");
-        return true;
-    }
-    if (password.length < 4){
-        alert("You have to write a Password with that have more than four characters");
-        return true; 
-    }
     
     const userJsonStr = JSON.stringify(user)
     storage.setItem("user", userJsonStr)

@@ -1,6 +1,4 @@
 
-const storage = window.localStorage
-
 let RecommendMovie = [
     { imgUrl: "https://media.vandal.net/m/4-2020/20204301832715_1.jpg" },
     { imgUrl: "https://www.gamerfocus.co/wp-content/uploads/2022/07/Valorant-Chamber.jpg" },
@@ -14,52 +12,10 @@ let RecommendMovie = [
   ]
   
   RecommendMovie.forEach(movie => {
-
-    function changeText(){
-        document.getElementById("playnow").innerHTML="Play Now"
-    }
     document.getElementById("row_posters").innerHTML += `
       <img id="img11"
-        src="${movie.imgUrl}" onclick="movieSelected('${movie.nombre}','${movie.Descripcion}','${movie.imgUrl}')">      
+        src="${movie.imgUrl}" onclick="movieSelected('${movie.nombre}','${movie.Descripcion}','${movie.imgUrl}')">
+      <button id="Save1">
+      
     `
   })
-
-  function login() {
-    const loggedUser = storage.getItem("user")
-    const user = JSON.parse(loggedUser)
-    
-
-    const userJsonStr = JSON.stringify(user)
-    storage.setItem("user", userJsonStr)
-
-    if(user.isLogged = true)
-    {
-        document.getElementById(`log`).innerHTML+= `
-        <div id="contenedor">
-        <img src="https://frikiup.co/wp-content/uploads/2022/02/002_RG_2021_FULL_LOCKUP_OFFWHITE.png" alt="" height="80px" width="285px">
-        <nav class="cuadro">
-        <a href="./Index.html" >Home</a>
-        <a href="./val.html">Maps</a>
-        <a href="./val2.html">About Us</a>
-        <a href="./Profile.html"><img src="https://cdn-icons-png.flaticon.com/512/5087/5087579.png" alt="" height="50px"></a>
-
-      </nav>
-</div>`
-
-    }else if(user.isLogged != true)
-    {
-        document.getElementById(`nonlog`).innerHTML+= `  
-        <div id="contenedor">
-        <img src="https://frikiup.co/wp-content/uploads/2022/02/002_RG_2021_FULL_LOCKUP_OFFWHITE.png" alt="" height="80px" width="285px">
-        <nav class="cuadro">
-        <a href="../html/Index.html" >Home</a>
-        <a href="../val.html">Maps</a>
-        <a href="../val2.html">About Us</a>
-        <a href="../valorant1.html">Log in</a>
-        <a href="../Valorant3.html">Register</a>
-      </nav>
-</div>`;
- }  
-}
-
-login()

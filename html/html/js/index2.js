@@ -15,6 +15,7 @@ RecommendMovie.forEach(movie => {
   document.getElementById("row_posters").innerHTML += `
     <img id="img11"
       src="${movie.imgUrl}" onclick="movieSelected('${movie.nombre}','${movie.Descripcion}','${movie.imgUrl}')">
+    <button id="Save1">
     
   `
 })

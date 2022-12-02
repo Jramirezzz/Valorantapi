@@ -22,10 +22,11 @@
     padding-left: 90px;
     padding-top: 30px;
     color: white;
-    cursor: pointer;
+    
+   
+
 
 }
-
 #final{
    
     display: flex;
@@ -79,7 +80,7 @@ body {
     font-size: 30px;
     line-height: 33px;   
     word-spacing: 10px;
-    width: 40%;
+    width: 800px;
     height: 80px;
     border: 1px black;
     background-color:#ffffff;
@@ -181,12 +182,3 @@ color: #000000;
     margin-top: 70px;
     margin-bottom: 70px;
 }
-#img11{
-    height: 50%;
-    width: 50%;
-    border: 10px solid #93000C;
-    border-radius: 50px;
-    margin-left: 1%;
-
-}
-	
