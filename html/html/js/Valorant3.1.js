@@ -1,28 +1,17 @@
 const storage = window.localStorage
-const regBtn = document.getElementById('terminado')
-let userList = []
 
-function loadUsers() {
-    let loadedUsers = localStorage.getItem("User");
-    if (loadedUsers !== null) {
-        userList = JSON.parse(loadedUsers);
-    };
-}
-loadUsers()
 function signup() {
-    const name = document.getElementById("name")
+    const name = document.getElementById("name").value
     const email = document.getElementById("email").value
     const password = document.getElementById("password").value
 
-
+    // TODO: Validate empty and correct fields
     const user = {
         name: name,
         email: email,
         password: password,
-        isLogged: false,
-        Favlist: []
+        isLogged: false
     }
-
     if (name == ""){
         alert("You have to write a name");
         return true;
@@ -48,12 +37,12 @@ function signup() {
     
     const userJsonStr = JSON.stringify(user)
     storage.setItem("user", userJsonStr)
-    
 
     window.location.href = './valorant1.html'
-
+    // TODO: Refactor for the use of a list of users
+    // Validar que el usario no este previamente registrado
 }
-regBtn.addEventListener('click',register)
-   
-
-   
+const userJson = localStorage.getItem("user")
+// Parse the json string into a map (object)
+const userParsed = JSON.parse(userJson);
+console.log(userParsed)
