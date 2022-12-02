@@ -345,10 +345,12 @@ header nav a.activo {
 }
 
 #pcontainer::-webkit-scrollbar-track {
-    background: rgb(255, 0, 0);        /* color of the tracking area */
+    background: rgb(255, 0, 0);        
   }
   #pcontainer::-webkit-scrollbar {
-    width: 12px;
+    width: 2px;
+    height: 8px;
+    margin-top: 100px;
   }
   
   #pcontainer::-webkit-scrollbar-track {
@@ -356,7 +358,7 @@ header nav a.activo {
   }
   
   #pcontainer::-webkit-scrollbar-thumb {
-    background-color: rgb(255, 94, 0);
+    background-color: #FF4655;
     border-radius: 20px;
-    border: 3px solid rgb(255, 0, 0);
+    border: 2px solid #FF4655;
   }
